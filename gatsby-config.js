@@ -2,8 +2,10 @@ module.exports = {
   siteMetadata: {
     title: 'Level Up Blog',
     description: 'A new blog!',
+    siteUrl: 'https://affectionate-boyd-587dbb.netlify.com'
   },
   plugins: [
+    'gatsby-plugin-sitemap',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
     'gatsby-plugin-sharp',
