@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Level Up Blog',
     description: 'A new blog!',
-    siteUrl: 'https://affectionate-boyd-587dbb.netlify.com'
+    siteUrl: 'https://affectionate-boyd-587dbb.netlify.com',
   },
   plugins: [
     'gatsby-plugin-sitemap',
@@ -13,13 +13,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'Bretts Blog',
+        short_name: 'BloxBlog',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#524763',
+        theme_color: '#524763',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        icon: 'src/images/icon.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-offline',
